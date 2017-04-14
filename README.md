@@ -21,11 +21,27 @@ package.json                    //node模块packge.json配置
 命令行执行导出
 ==
 在build目录下执行对应的导出命令
+- 导出字体绘制路径描述文件 (Ds.createjs.CJSLoadFontsModel 动态字体基于这个输出)
+
+
+```
+gulp ExportOriginalPath --font 自定义字体.ttf
+```
+
 
 - 导出SVG
 
-gulp SVGOutput --font 汉仪跳跳体简.ttf
 
-- 导出路径描述Txt
+```
+gulp SVGOutput --font 自定义字体.ttf
+```
 
-gulp ExportOriginalPath --font 汉仪跳跳体简.ttf
+
+- 导出SVG路径Txt
+
+
+```
+gulp ExportAnalysisPath --font 自定义字体.ttf
+```
+
+

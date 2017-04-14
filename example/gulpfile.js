@@ -4,7 +4,7 @@ var glob = require('glob');
 var path = require('path'); //路径习题
 var browserSync = require('browser-sync').create(); //自动刷新调试
 /*进行开发环境测试*/
-gulp.task('webpack-dev', ['dev:webpack'], function() {
+gulp.task('build', function() {
     //启动browserSync服务
     browserSync.init({
         server: './',

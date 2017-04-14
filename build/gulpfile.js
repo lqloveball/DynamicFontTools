@@ -65,7 +65,7 @@ gulp.task('SVGOutput', function() {
 });
 
 /*
-进行分析导出字体的路径描述文件
+导出SVG路径描述Txt
 
 命令行参考:
 gulp ExportAnalysisPath --font 汉仪跳跳体简.ttf

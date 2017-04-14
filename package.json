@@ -1,9 +1,0 @@
-{
-  "name": "FontsOutput",
-  "version": "0.0.1",
-  "devDependencies": {
-    "font-carrier": "^0.0.9",
-    "fontmin": "^0.9.1",
-    "gulp": "^3.8.10"
-  }
-}

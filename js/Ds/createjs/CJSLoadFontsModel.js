@@ -143,9 +143,9 @@ function CJSLoadFontsModel(pathUrl){
          */
         function DrawFontByPathData(pathData,color){
             var shape=new createjs.Shape();
-            console.log('DrawFontByPathData1');
+            // console.log('DrawFontByPathData1');
             if(!pathData||pathData.length===0)return shape;
-            console.log('drawFontByPathData2',pathData.length);
+            // console.log('drawFontByPathData2',pathData.length);
             var g=shape.graphics;
             // g.clear();
             g.beginFill(color);
@@ -158,7 +158,7 @@ function CJSLoadFontsModel(pathUrl){
             function draw(gdata,i){
                 var type=gdata.type;
                 var arr=gdata.arr;
-                console.log(i,'draw ',type,arr);
+                // console.log(i,'draw ',type,arr);
                 if(type==='M') {
                   g.moveTo(arr[0], arr[1]);
 

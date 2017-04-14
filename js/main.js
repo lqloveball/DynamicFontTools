@@ -20,7 +20,7 @@ _FontsModel.on('loadFontsComplete',LoadFontsComplete);
 
 //需要加载的动态字体加载完成
 function LoadFontsComplete(){
-  console.log('loadFontsComplete');
+  // console.log('loadFontsComplete');
   // console.log(_FontsModel.GetFontData('我'));
   // console.log(_FontsModel.GetFontPathData('测'));
   _InitInfo=_UserSend[0].value;

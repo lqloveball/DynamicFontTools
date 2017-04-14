@@ -1,5 +1,7 @@
 动态字体输出工具
 ====
+[字体输出工具](https://github.com/lqloveball/DynamicFontTools)
+
 环境需求：node 6.0以上 
 
 目录结构说明
